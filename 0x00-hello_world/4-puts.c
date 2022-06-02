@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * 
- *function puts: prints out
+ *
+ * function puts: prints out
  */
 int main(void)
 {
