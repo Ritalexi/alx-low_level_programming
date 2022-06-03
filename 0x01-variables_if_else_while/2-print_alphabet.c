@@ -10,7 +10,7 @@ int main(void)
 
 	for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-	putchar(alphabet'\n');
+	putchar("%d\n", alphabet);
 	}
 	return (0);
 }
