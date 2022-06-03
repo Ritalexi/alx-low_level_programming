@@ -1,4 +1,4 @@
-#inclide <stdiio>
+#include <stdio.h>
 /**
  * main -- Entry point
  *
@@ -19,5 +19,5 @@ int main(void)
 		putchar(' ');
 	}
 	putchar('\n');
-	retuen (0);
+	return (0);
 }
