@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -21,7 +22,7 @@ int main(void)
 					putchar(' ');
 					putchar((k % 10) + '0');
 					putchar((l % 10) + '0');
-					if (k == 9 && l == 9)
+					if (i == 9 && j == 8 && k == 9 && l == 9)
 						continue;
 					putchar(',');
 					putchar(' ');
