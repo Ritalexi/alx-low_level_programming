@@ -9,12 +9,7 @@ int _islower(int c)
 {
 	int r;
 
-	if (r == _islower(c))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-}
+	r = _islower(c);
+	_putchar(r + '0');
+	_putchar('\n');
+}ZZ
