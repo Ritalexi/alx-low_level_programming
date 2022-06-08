@@ -18,7 +18,7 @@ void print_to_98(int k)
 
 			if (k == 98)
 				continue;
-			printf(". ");
+			printf(", ");
 		}
 		printf("\n");
 	}
@@ -30,7 +30,7 @@ void print_to_98(int k)
 
 			if (k == 98)
 				continue;
-			printf(". ");
+			printf(", ");
 		}
 		printf("\n");
 	}
