@@ -7,7 +7,7 @@
  *
  * Return: Always 0
  */
-int print_last_digits(int c)
+int print_last_digit(int c)
 {
 int n;
 
