@@ -3,35 +3,41 @@
 /**
  * print_to_98 - Entry point
  *
- * @n: number to be used
+ * @k: number to be used
  *
  * Return: Always 0
  */
-void print_to_98(int n)
+void print_to_98(int k)
 {
-	if (n < 98)
+	int n;
+
+	if (k < 98)
 	{
-		for (n = n; n <= 98; n++)
+		for (n = k; n <= 98; n++)
 		{
-			_putchar(n + '0');
+			_putchar(n);
+			if (n == k)
+				continue;
 			_putchar(',');
 			_putchar(' ');
 		}
 		_putchar('\n');
 	}
-	else if (n == 98)
+	else if (k == 98)
 	{
-		_putchar(n + '0');
+		_putchar(n);
 		_putchar('\n');
 	}
-	else 
+	else
 	{
-		for (n = n; n >= 98; n--)
+		for (n = k; n >= 98; n--)
 		{
-			_putchar(n + '0');
+			_putchar(n);
+			if (n == 98)
+				continue;
 			_putchar(',');
 			_putchar(' ');
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
