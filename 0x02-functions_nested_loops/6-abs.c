@@ -15,6 +15,6 @@ int _abs(int r)
 	}
 	else 
 	{
-		retuen (r * -1);
+		return (r * -1);
 	}
 }
