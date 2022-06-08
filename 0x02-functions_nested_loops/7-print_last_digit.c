@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_last_digits - Entry point
+ * print_last_digit - Entry point
  *
  * @c: number t0 be used
  *
