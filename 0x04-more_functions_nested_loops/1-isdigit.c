@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit(inct c) - Entry point
+ * _isdigit - Entry point
  * @c: input
  * Return: 0
  */
