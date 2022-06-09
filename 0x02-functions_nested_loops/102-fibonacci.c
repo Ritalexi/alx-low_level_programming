@@ -13,7 +13,7 @@ int main(void)
 	fibonacci[1] = 2;
 	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
 
-	for (i = 2; i <= 50; i++)
+	for (i = 2; i < 50; i++)
 	{
 		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 		if (i == 49)
