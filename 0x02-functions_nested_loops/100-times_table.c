@@ -5,6 +5,8 @@
  * @n: An input value
  * Return: Nothing
  */
+void putformat(int n);
+
 void print_times_table(int n)
 {
 	int i, j;
@@ -13,7 +15,7 @@ void print_times_table(int n)
 	{
 		for (i = 0; i <= n; i++)
 		{
-			_putchar('0');
+			_putchar(0);
 			for (j = 1; j <= n; j++)
 				putformat(i * j);
 			_putchar('\n');
