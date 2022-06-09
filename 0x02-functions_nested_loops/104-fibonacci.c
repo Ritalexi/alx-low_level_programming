@@ -6,7 +6,7 @@
 int main(void)
 {
 	int i;
-	long int f;
+	long int f[98];
 
 	f[0] = 1;
 	f[1] = 2;
