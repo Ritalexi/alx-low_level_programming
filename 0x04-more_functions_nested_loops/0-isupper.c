@@ -2,6 +2,7 @@
 
 /**
  * _isupper - Entry point
+ * @c: input 
  * Return: 1 or 0
  */
 int _isupper(int c)
