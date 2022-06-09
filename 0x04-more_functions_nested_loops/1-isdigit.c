@@ -8,9 +8,10 @@
 
 int _isdigit(int c)
 {
-	int i, j;
+	char i = '0';
+	int j = 0;
 
-	for (i = 0; i <= 9; i++)
+	for (; i <= '9'; i++)
 	{
 		if (i == c)
 		{
@@ -19,5 +20,5 @@ int _isdigit(int c)
 		}
 	}
 
-	return (0);
+	return (j);
 }
