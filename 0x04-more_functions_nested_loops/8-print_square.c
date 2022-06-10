@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square
+ * print_square - Entry point
  * @size: input
  * Return: Always 0
  */
