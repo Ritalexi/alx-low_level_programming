@@ -12,10 +12,8 @@ void print_rev(char *s)
 	int no = strlen(s);
 	int i;
 
-	for (i = 0; i >= no + 1; i++)
+	for (i = 0; s[i] != 0; i++)
 	{
-		if (s[i] == '\0')
-			break;
 	}
 	for (i = no; i >= 0; i--)
 	{
