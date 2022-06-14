@@ -10,9 +10,12 @@
 void puts2(char *str)
 {
 	int c;
-	int i = strlen(str) + 1;
 
-	for (c = 0; c < i; c++)
+	for (c = 0; str[c] != 0; c++)
+	{
+	}
+
+	for (c = 0; c < c - 1; c++)
 	{
 		if (c % 2 == 0)
 		{
