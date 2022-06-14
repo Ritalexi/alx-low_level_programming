@@ -30,7 +30,7 @@ void puts_half(char *str)
 	{
 		n = (i - 1) / 2;
 
-		for (c = n + 2; c < i; c++)
+		for (c = n + 1; c < i; c++)
 		{
 			if (str[c] != 0)
 			{
