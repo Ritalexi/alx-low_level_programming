@@ -3,4 +3,9 @@
 /**
  * cap_string -  Entry point
  * @s: pointer
- * Return:
+ * Return: Always 0
+ */
+
+char *cap_string(char *)
+{
+
