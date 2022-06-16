@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -9,16 +10,19 @@
 
 void reverse_array(int *a, int n)
 {
-	int i;
+	int i, j;
 
-	i = n;
-	while (i >= 0)
+	i = 0;
+	while (i < n)
 	{
-		if (i == 0)
-			continue;
-		_putchar(a[i]);
-		_putchar(',');
-		_putchar(' ');
-		i--;
+	i++
 	}
+for (j = n; j >= 0; j--)
+{
+	if (j == 0)
+		continue;
+	_putchar(a[j]);
+	_putchar(',');
+	_putchar(' ');
+}
 }
