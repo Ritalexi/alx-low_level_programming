@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strncat _ Entry point
+ * _strncat - Entry point
  * @dest: pointer
  * @src: pointer
  * @n: input
