@@ -6,6 +6,7 @@
  * Return: Always 0
  */
 
+int c_s(char c);
 char *cap_string(char *s)
 {
 	int i;
@@ -18,7 +19,7 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			continue;
 		}
-		if (s[i] == ' ')
+		if (c_s(s[i]))
 		{
 			++i;
 			if (s[i] >= 'a' && s[i] <= 'z')
@@ -27,11 +28,27 @@ char *cap_string(char *s)
 				continue;
 			}
 		}
-		else
-		{
-			if (s[i] >= 'A' && s[i] <= 'Z')
-				s[i] = s[i] + 32;
-		}
 	}
 	return (s);
+}
+
+/**
+ * c_s - Entry point
+ * @c: input
+ * Return: 1
+ */
+
+int c_s(char c)
+{
+	int j;
+
+	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?',
+		'"', '(', ')', '{', '}' };
+
+	for (j = 0; j < 13; j++)
+	{
+		if (c == sep[j])
+			return (1);
+	}
+	return (0);
 }
