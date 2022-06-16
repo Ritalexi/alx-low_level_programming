@@ -18,6 +18,6 @@ void reverse_array(int *a, int n)
 	}
 	for (j = l; j >= 0; j--)
 	{
-	k = a[j];
+		a[j];
 	}
 }
