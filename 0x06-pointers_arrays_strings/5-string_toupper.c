@@ -3,7 +3,7 @@
 
 /**
  * string_toupper - Entry point
- * @s: pointer
+ * @s: input
  * Return: Always 0
  */
 
