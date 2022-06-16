@@ -29,7 +29,7 @@ char *cap_string(char *s)
 		}
 		else
 		{
-			if (s[i] >= 'A'; && s[i] <= 'Z')
+			if (s[i] >= 'A' && s[i] <= 'Z')
 				s[i] = s[i] + 32;
 		}
 	}
