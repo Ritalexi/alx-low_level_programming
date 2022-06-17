@@ -1,17 +1,17 @@
 #include "main.h"
 
+int c_s(char c);
 /**
  * cap_string -  Entry point
  * @s: pointer
  * Return: Always 0
  */
 
-int c_s(char c);
 char *cap_string(char *s)
 {
 	int i;
 
-	for (i = 0; s[i] !='\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (i == 0)
 		{
@@ -19,7 +19,7 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			continue;
 		}
-		if (c_s(s[i]))
+		if (s[i] == c_s(s[i]))
 		{
 			if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 			{
