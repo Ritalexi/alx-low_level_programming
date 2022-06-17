@@ -19,7 +19,7 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			continue;
 		}
-		if (s[i] == c_s(s[i]))
+		if (c_s(s[i]))
 		{
 			if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 			{
