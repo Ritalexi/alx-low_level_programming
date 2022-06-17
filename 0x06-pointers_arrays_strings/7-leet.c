@@ -21,7 +21,7 @@ char *leet(char *s)
 			if (s[i] == cl[j] || s[i] == sl[j])
 			{
 				s[i] = num[j];
-				continue;
+				break;;
 			}
 		}
 	}
