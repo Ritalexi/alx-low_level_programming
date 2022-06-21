@@ -1,23 +1,28 @@
 #include "main.h"
 
 /**
- * _strpbrk - searches a string for any of a set of strings.
- * @s: first string.
- * @accept: second string.
- * Return: a pointer to the string in s that matches one of the
- * or NULL
+ * _strpbrk - Entry point
+ * @s: pointer
+ * @accept: pointer
  */
+
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i, j;
+	int i, j;
+	char *k = accept;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; *s; i++)
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		for (j = 0; *accept; j++)
 		{
-			if (s[i] == accept[j])
-				return (s + i);
+			if (*s == *accept)
+			{
+				return (s);
+			}
+			accept++;
 		}
+			accept = k;
+			s++;
 	}
-	return ('\0');
+	return (NULL);
 }
