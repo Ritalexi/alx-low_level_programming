@@ -2,7 +2,7 @@
 
 /**
  * _strspn - Entry point
- * @char: pointer
+ * @s: pointer
  * @accept: pointer
  * Return: Always 0
  */
@@ -24,5 +24,5 @@ unsigned int _strspn(char *s, char *accept)
 				return (n);
 		}
 	}
-	return (0);
+	return (n);
 }
