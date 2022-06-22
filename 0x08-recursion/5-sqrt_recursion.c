@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
  * _sqrt - Entry point
  * @p: previou value
  * @r: root value
- * Retun: Always 0
+ * Return: Always 0
  */
 
 int _sqrt(int p, int r)
@@ -31,6 +31,6 @@ int _sqrt(int p, int r)
 	{
 		return (p);
 	}
-	
+
 	return (_sqrt(p + 1, r));
 }
