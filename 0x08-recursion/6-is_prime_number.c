@@ -1,4 +1,5 @@
 #include "main.h"
+int prime(int p, int r);
 
 /**
  * is_prime_number - Entry point
