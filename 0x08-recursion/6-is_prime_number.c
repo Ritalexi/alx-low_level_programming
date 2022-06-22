@@ -13,13 +13,13 @@ int is_prime_number(int n)
 		return (0);
 
 	else
-	}
+{
 return (prime(2, n));
 }
 }
 
 /**
- * prime - Wntry point
+ * prime - Entry point
  * @p: input
  * @r: input
  * Return: Always 0
