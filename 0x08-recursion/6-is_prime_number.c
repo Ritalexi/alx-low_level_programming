@@ -11,9 +11,7 @@ int is_prime_number(int n)
 	if (n <= 1)
 		return (0);
 
-	else
-<<<<<<< HEAD
-=======
+else
 {
 return (prime(2, n));
 }
@@ -29,6 +27,14 @@ return (prime(2, n));
 int prime(int p, int r)
 {
 	if ((r / 2) % p != 0)
->>>>>>> 9d47d3fe0ecce4103cae5dfa8e029f58ed3b6604
-	{
+{
+return (1);
+}
+else
+{
+return (0);
+}
+
+return (prime(p + 1, r));
+}
 		
