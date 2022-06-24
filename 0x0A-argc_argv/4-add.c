@@ -12,12 +12,7 @@
 int main(int argc, char **argv)
 {
 	int i, j = 0, k;
-
-	if (argc == 1)
-	{
-		printf("0\n");
-	}
-
+	
 	for (i = 1; i < argc; i++)
 	{
 		for (k = 0; argv[i][k]; k++)
