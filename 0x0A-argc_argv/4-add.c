@@ -12,16 +12,16 @@
 int main(int argc, char **argv)
 {
 	int i, j = 0, k;
-	
+
 	for (i = 1; i < argc; i++)
 	{
 		for (k = 0; argv[i][k]; k++)
 		{
-		if (!(isdigit(argv[i][k])))
-		{
-			printf("Error\n");
-			return (1);
-		}
+			if (!(isdigit(argv[i][k])))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
 
 		j = j + atoi(argv[i]);
