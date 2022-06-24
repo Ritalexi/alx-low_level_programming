@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main.h - Entry point
+ * main - Entry point
  * @argc: counter
  * @argv: array
  * Return: Always 0
