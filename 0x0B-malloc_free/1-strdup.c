@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strnlen - Entry point
+ * _strlen - Entry point
  * @str: pointer
  * Return: Always 0
  */
