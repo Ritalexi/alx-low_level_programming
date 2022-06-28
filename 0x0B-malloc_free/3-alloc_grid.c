@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * alloc - Entry point
+ * alloc_grid - Entry point
  * @width: input
  * @height: input
  * Return: Always 0
