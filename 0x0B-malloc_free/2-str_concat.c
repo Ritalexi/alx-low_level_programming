@@ -25,6 +25,12 @@ char *str_concat(char *s1, char *s2)
 	char *p;
 	size_t i, j, k;
 
+	if (s1 == NULL)
+		s1 = "";
+
+	if (s2 == NULL)
+		s2 = "";
+
 	j = _concat(s1);
 	k = _concat(s2);
 
