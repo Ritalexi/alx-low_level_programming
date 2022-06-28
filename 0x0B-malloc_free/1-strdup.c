@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strnlen -Entry point
+ * _strnlen - Entry point
  * @str: pointer
  * Return: Always 0
  */
@@ -14,7 +14,8 @@ size_t _strlen(char *str)
 	return (1 + _strlen(str + 1));
 }
 
-/**_strdup - Entry point
+/**
+ * _strdup - Entry point
  * @str: pointer
  * Return: Always 0
  */
