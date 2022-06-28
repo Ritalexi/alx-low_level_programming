@@ -8,7 +8,7 @@
 
 size_t _concat(char *s)
 {
-	if (s == '\0')
+	if (*s == '\0')
 		return (0);
 
 	return (1 + _concat(s + 1));
@@ -41,5 +41,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		p[j + i] = s2[i];
 	}
+
 return (p);
 }
