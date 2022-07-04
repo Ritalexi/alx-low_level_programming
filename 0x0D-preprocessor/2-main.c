@@ -1,3 +1,6 @@
+#ifndef __main__
+#define __main__
+
 #include <stdio.h>
 
 /* prints name of file */
@@ -8,3 +11,5 @@ int main()
 
 	return (0);
 }
+
+#endif
