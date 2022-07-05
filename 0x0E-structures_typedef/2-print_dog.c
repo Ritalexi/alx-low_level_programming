@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include "dog.h"
 
 /**
- * print_dog - Entry point
+ * print_dog - print a struct dog
  * @d: struct dog
  */
 
