@@ -1,4 +1,4 @@
-#include "dog.h"
+#include "dog.hi"
 
 /**
 *new_dog - creates a new dog
