@@ -2,8 +2,8 @@
 #include "dog.h"
 
 /**
- * print_dog - Event point
- * @d: pointer
+ * print_dog - Entry point
+ * @d: struct dog
  */
 
 void print_dog(struct dog *d)
@@ -11,8 +11,21 @@ void print_dog(struct dog *d)
 	if (d == NULL)
 		exit(1);
 
-	if (d->name == NULL || d->age == NULL || d->owner == NULL)
-		printf("(nil)");
+	else
+	{
+		if (d->name == NULL)
+			printf("Name: (nill)\n");
+		else
+			printf("Name: %s\n", d->name);
 
-	printf("Name: %s\nAge: %.1f\nOwner: %s\n", d->name, d->age, d->owner);
+		if (d->age == NULL)
+			printf("Age: (nill)\n");
+		else
+			printf("Age: %f\n", d->age);
+
+		if (d->owner == NULL)
+			printf("Owner: (nill)\n");
+		else
+			printf("Owner: %s\n", d->owner);
+	}
 }
