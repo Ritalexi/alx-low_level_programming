@@ -5,14 +5,14 @@
 #include <stdlib.h>
 
 /**
- * struct main - Entry point
+ * struct dog - Entry point
  * @name: input
  * @age: input
  * @owner: input
  * Description: struct called dog to make a mode
  */
 
-struct main
+struct dog
 {
 	char *name;
 	float age;
