@@ -1,4 +1,4 @@
-#ifndef _calc_
+#ifndef _cailc_
 #define _calc_
 
 #include <stdlib.h>
