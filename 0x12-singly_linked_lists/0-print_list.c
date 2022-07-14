@@ -2,8 +2,7 @@
 
 /**
  * print_list - Entry point
- * @h: struct pointer
- *
+ * @h: pointer
  * Return: Always 0
  */
 
