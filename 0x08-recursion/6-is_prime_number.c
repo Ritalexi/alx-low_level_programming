@@ -37,5 +37,4 @@ return (0);
 }
 
 return (prime(p + 1, r));
-}
-		
+}		
