@@ -28,8 +28,8 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (!*head)
 	{
-		ptr = *head;
-		return (ptr);
+		*head = end;
+		return (end);
 	}
 
 	ptr = *head;
