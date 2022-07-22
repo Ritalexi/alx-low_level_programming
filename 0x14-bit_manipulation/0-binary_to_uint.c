@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int binary_to_uint - Entry point
+ * binary_to_uint - Entry point
  * @b: pointer
  * Return: Always 0
  */
