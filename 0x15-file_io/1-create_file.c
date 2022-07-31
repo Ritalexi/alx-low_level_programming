@@ -3,7 +3,7 @@
 /**
  * create_file - Entry point
  * @filename: pointer to name of file to be created
- * @text-content: NULL terminated string to write to the file
+ * @text_content: NULL terminated string to write to the file
  * Return: Always 0
  */
 
