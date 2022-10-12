@@ -16,9 +16,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 		return (0);
+
 	copy = strdup(value);
 	if (copy == NULL)
 		return (0);
+
 	index = key_index((const unsigned char *)key, ht->size);
 	/*Transversing the array to update value*/
 	for (i = index; ht->array[i]; i++)
@@ -34,6 +36,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (new == NULL)
 	{
 		free(copy);
+		return (0);
+	}
+	new->key = strdup(key);
+	if (new->key == NULL)
+	{
+		free(new);
 		return (0);
 	}
 	new->value = copy;
